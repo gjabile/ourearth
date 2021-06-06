@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#005C4F"
+    tools:context=".correct_petitions_page">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="363dp"
+        android:layout_height="88dp"
+        android:fontFamily="@font/nunito"
+        android:text="-Declared extinct in 2011            -Killed off due to illegal poaching"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="176dp"
+        android:layout_height="127dp"
+        android:fontFamily="@font/nanumpen"
+        android:text="CorrectWest African Black Rhinoceros"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumpen"
+        android:text="Correct!"
+        android:textColor="#E5FFEB"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="155dp"
+        android:layout_height="73dp"
+        app:srcCompat="@drawable/games_button"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/correct_to_games_btn"
+        android:layout_width="158dp"
+        android:layout_height="56dp"
+        android:background="#00FFFFFF"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/light_green_circle"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/extinct_rhino"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="427dp"
+        android:layout_height="359dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/correct_white_rectangle"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumpen"
+        android:text="How to Help:"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito"
+        android:text="Donate to:"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="608dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito"
+        android:text="Petitions to sign:"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="270dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/nunito"
+        android:text="@string/WWF"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="650dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito"
+        android:text="@string/envpetitions"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="113dp"
+        android:layout_height="118dp"
+        app:srcCompat="@drawable/petition_correctanimal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="105dp"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/donate_money"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="608dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

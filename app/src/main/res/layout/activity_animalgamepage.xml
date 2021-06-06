@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#005C4F"
+    tools:context=".animalgamepage">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="180dp"
+        android:layout_height="66dp"
+        android:fontFamily="@font/nanumpen"
+        android:text="West African Black Rhinoceros"
+        android:textAlignment="center
+"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="85dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/nanumpen"
+        android:text="Red Fox"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="105dp"
+        android:layout_height="31dp"
+        android:fontFamily="@font/nanumpen"
+        android:text="Polar Bear"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="85dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/nanumpen"
+        android:text="Flamingo"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumpen"
+        android:text="Animals"
+        android:textColor="#E5FFEB"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="376dp"
+        android:layout_height="103dp"
+        android:fontFamily="@font/nunito"
+        android:text="Click on which animal you think is extinct!"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="164dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/games_button"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/animals_to_game"
+        android:layout_width="153dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/light_green_circle"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/light_green_circle"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/light_green_circle"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/light_green_circle"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/red_fox"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/polar_bear"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Flamingo"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="134dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/extinct_rhino"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+    <Button
+        android:id="@+id/animal_to_correct_btn"
+        android:layout_width="151dp"
+        android:layout_height="152dp"
+        android:background="#00FFFFFF"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="488dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

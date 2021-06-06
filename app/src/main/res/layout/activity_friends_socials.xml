@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#70B16D"
+    tools:context=".friends_socials">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="366dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/nanumpen"
+        android:text="Upcoming Workshops"
+        android:textColor="#E5FFEB"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumpen"
+        android:text="Your Friends:"
+        android:textColor="#E5FFEB"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumpen"
+        android:text="Socials"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="158dp"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/homeland_button"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/socials_to_home_btn"
+        android:layout_width="163dp"
+        android:layout_height="64dp"
+        android:background="#00FFFFFF"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="348dp"
+        android:layout_height="204dp"
+        app:srcCompat="@drawable/socials_dark_rectangle"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="348dp"
+        android:layout_height="204dp"
+        app:srcCompat="@drawable/socials_dark_rectangle"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="93dp"
+        android:layout_height="106dp"
+        app:srcCompat="@drawable/light_green_circle"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="93dp"
+        android:layout_height="106dp"
+        app:srcCompat="@drawable/light_green_circle"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="186dp"
+        android:layout_height="189dp"
+        app:srcCompat="@drawable/light_green_circle"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="309dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/searchbar"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/user_icon"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/user_icon"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito"
+        android:text="Alice"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="121dp"
+        android:layout_height="141dp"
+        android:fontFamily="@font/nunito"
+        android:text="How to grow an avocado tree 101"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito"
+        android:text="Jake"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="137dp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/avocado"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <Button
+        android:id="@+id/social_to_workshop"
+        android:layout_width="185dp"
+        android:layout_height="162dp"
+        android:background="#00FFFFFF"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

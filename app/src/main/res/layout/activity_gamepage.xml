@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#70B16D"
+    tools:context=".gamepage">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumpen"
+        android:text="Energy"
+        android:textColor="#E5FFEB"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumpen"
+        android:text="Animals"
+        android:textColor="#E5FFEB"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumpen"
+        android:text="Habitat"
+        android:textColor="#E5FFEB"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumpen"
+        android:text="Games:"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="192dp"
+        android:layout_height="109dp"
+        android:fontFamily="@font/nunito"
+        android:text="Learn about extinct animals and how we can help endangered species:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="192dp"
+        android:layout_height="109dp"
+        android:fontFamily="@font/nunito"
+        android:text="Learn about deforestation and ocean pollution & what we can do to help"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="192dp"
+        android:layout_height="109dp"
+        android:fontFamily="@font/nunito"
+        android:text="Learn about renewable energy & how we can integrate sustainability into energy production!"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="590dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="170dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/homeland_button"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <Button
+        android:id="@+id/games_to_home_button"
+        android:layout_width="156dp"
+        android:layout_height="49dp"
+        android:background="#00FFFFFF"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dark_green_circle"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dark_green_circle"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dark_green_circle"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tutrle_game"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/leaf_game"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/light_bulb"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="546dp" />
+
+    <Button
+        android:id="@+id/games_to_animal_button"
+        android:layout_width="150dp"
+        android:layout_height="151dp"
+        android:background="#00FFFFFF"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#70B16D"
+    tools:context=".progress">
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumpen"
+        android:text="Weekly Goal:"
+        android:textColor="#E5FFEB"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumpen"
+        android:text="You've won:"
+        android:textColor="#E5FFEB"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumpen"
+        android:text="Progress"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="161dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/homeland_button"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/progress_to_home_btn"
+        android:layout_width="161dp"
+        android:layout_height="63dp"
+        android:background="#00FFFFFF"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="373dp"
+        android:layout_height="208dp"
+        app:srcCompat="@drawable/socials_dark_rectangle"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="373dp"
+        android:layout_height="208dp"
+        app:srcCompat="@drawable/socials_dark_rectangle"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="328dp"
+        android:layout_height="83dp"
+        android:fontFamily="@font/nunito"
+        android:text="Earn more points by adding friends, playing games, and attending workshops!"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="180dp"
+        android:layout_height="98dp"
+        android:fontFamily="@font/nunito"
+        android:text="Go on a hike in a forest!"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="148dp"
+        android:layout_height="123dp"
+        android:fontFamily="@font/nunito"
+        android:text="points this week!"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito"
+        android:text="50"
+        android:textColor="#FFFFFF"
+        android:textSize="100sp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="101dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/light_green_circle"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/check_mark"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="569dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
