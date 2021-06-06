@@ -1,6 +1,8 @@
 package com.example.ourearth
 
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -12,12 +14,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-}
-
-
-
-
+        fun sendMessage(view: View) {
+            // Do something in response to button
+        }
     }
+
 }
+
+
+
+
+
+
 
